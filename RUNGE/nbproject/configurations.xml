@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <itemPath>Growth.h</itemPath>
+      <itemPath>GrowthCos.h</itemPath>
+      <itemPath>RungeKutta.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>Growth.cpp</itemPath>
+      <itemPath>GrowthCos.cpp</itemPath>
+      <itemPath>RungeKutta.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>gnuplot.plt</itemPath>
+    <itemPath>out.jpeg</itemPath>
+    <itemPath>out.txt</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+          <commandlineTool>g++</commandlineTool>
+        </ccTool>
+      </compileType>
+      <item path="Growth.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Growth.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GrowthCos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GrowthCos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RungeKutta.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RungeKutta.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gnuplot.plt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="out.jpeg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="out.txt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Growth.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Growth.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GrowthCos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GrowthCos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RungeKutta.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RungeKutta.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gnuplot.plt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="out.jpeg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="out.txt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
